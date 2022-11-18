@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:infa_care/Feeding/HEM.dart';
+import 'package:infa_care/Feeding/JOF.dart';
 import 'package:infa_care/Feeding/STBM.dart';
 
 import '../Equipments/CNP.dart';
@@ -130,7 +131,7 @@ class _FeedingState extends State<Feeding> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>Probe()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>JOF()));
                   },
                   child: Container(
                     height: 70,
