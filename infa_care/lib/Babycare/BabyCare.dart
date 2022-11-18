@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:infa_care/Babycare/Oral.dart';
+import 'package:infa_care/Babycare/bath.dart';
 
 import '../Feeding/HEM.dart';
 import '../Feeding/JOF.dart';
@@ -32,7 +33,8 @@ class _BabyState extends State<Baby> {
           ),
           ),
         ),
-        body: SafeArea(child: SingleChildScrollView(
+        body: SafeArea(
+            child: SingleChildScrollView(
           child: Center(
             child: Column(
               children: [
@@ -88,7 +90,7 @@ class _BabyState extends State<Baby> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => STBM(),));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Bath(),));
                   },
                   child: Container(
                     height: 70,
