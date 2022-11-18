@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 
 import '../HomeScreen.dart';
 
-class TF extends StatefulWidget {
-  const TF({Key? key}) : super(key: key);
+class Oral extends StatefulWidget {
+  const Oral({Key? key}) : super(key: key);
 
   @override
-  State<TF> createState() => _TFState();
+  State<Oral> createState() => _OralState();
 }
 
-class _TFState extends State<TF> {
+class _OralState extends State<Oral> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -22,7 +22,7 @@ class _TFState extends State<TF> {
         appBar: AppBar(
           scrolledUnderElevation: 10,
           elevation: 0,
-          title: Text("Tube Feeding"),
+          title: Text("ISOC Oral Care"),
           centerTitle: true,
           leading: IconButton(onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (context)=>HomeScreen()));
@@ -37,24 +37,20 @@ class _TFState extends State<TF> {
                     children: [
                       Container(
                         decoration: BoxDecoration(
-                            color: Colors.grey.withOpacity(0.8),
-                            borderRadius: BorderRadius.all(Radius.circular(15)),
+                          color: Colors.grey.withOpacity(0.8),
+                          borderRadius: BorderRadius.all(Radius.circular(15)),
 
                         ),
                         child: Padding(
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Tube Feeding your baby", style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),
-                              ),
+                              Image(image: AssetImage("assets/images/Babycare/1/")),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step1.jpg")),
-                              SizedBox(
-                                height: 10,
+                              Text("Babies mouths are incredibally sensitive. As they grow, babies use their mouths to explore thier "
+                                  "environment."
                               ),
                             ],
                           ),
@@ -75,15 +71,16 @@ class _TFState extends State<TF> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Your baby is being tube fed", style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("Tube feeding allows the baby to receive milk when they are unable to feed orally. "
-                                  "\nYou can help to do tube feeds with your baby's nurse. "
-                                  "\nThe following explains how it can be done."),
+                              Text("Particularly when baby is not feeding orally"
+                                  ", procedures around your baby's mouth can be "
+                                  "stressful. It can also lead to your baby"
+                                  " becoming sensitive around their mouth which "
+                                  "may have a negative impact on feeding.You can "
+                                  "help your baby cope with touch to the mouth"
+                                  " through positive experiences of taste and "
+                                  "touch. Your fresh expressed breast milk is the "
+                                  "best thing to use. It's sweet and contains lots "
+                                  "of properties to protect your baby."),
                             ],
                           ),
                         ),
@@ -134,9 +131,9 @@ class _TFState extends State<TF> {
                             children: [
                               Text("Before you start \n"
                                   "Wash your hands",
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),),
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),),
                               SizedBox(
                                 height: 10,
                               ),
@@ -220,9 +217,9 @@ class _TFState extends State<TF> {
                           child: Column(
                             children: [
                               Text("Checking the number on the tube", style:
-                                TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                ),),
+                              TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),),
                               SizedBox(
                                 height: 10,
                               ),
@@ -424,9 +421,9 @@ class _TFState extends State<TF> {
                           child: Column(
                             children: [
                               Text("When to stop the feed", style:
-                                TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                ),
+                              TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
                               ),
                               SizedBox(
                                 height: 10,

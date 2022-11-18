@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:infa_care/Babycare/BabyCare.dart';
 import 'package:infa_care/Equipment.dart';
 import 'package:infa_care/login.dart';
 import 'package:infa_care/util/Util.dart';
@@ -193,46 +194,51 @@ class _HomeScreenState extends State<HomeScreen> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(30),
-                      child: Container(
-                        height: 120,
-                        width: 120,
-                        decoration: BoxDecoration(
-                          boxShadow: [
-                            BoxShadow(
-                                color: Colors.grey,
-                                offset: Offset(3, 2),
-                                blurRadius: 20,
-                                spreadRadius: 1
-                            )
-                          ],
-                            border: Border.all(
-                                color: Colors.blueAccent
+                      child: GestureDetector(
+                        onTap: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>Baby()));
+                        },
+                        child: Container(
+                          height: 120,
+                          width: 120,
+                          decoration: BoxDecoration(
+                            boxShadow: [
+                              BoxShadow(
+                                  color: Colors.grey,
+                                  offset: Offset(3, 2),
+                                  blurRadius: 20,
+                                  spreadRadius: 1
+                              )
+                            ],
+                              border: Border.all(
+                                  color: Colors.blueAccent
+                              ),
+                              borderRadius: BorderRadius.circular(10),
+                            gradient: LinearGradient(colors: [
+                              Colors.blueAccent,
+                              Colors.lightBlueAccent,
+                            ],
+                                begin: Alignment.bottomLeft,
+                                end: Alignment.topRight
                             ),
-                            borderRadius: BorderRadius.circular(10),
-                          gradient: LinearGradient(colors: [
-                            Colors.blueAccent,
-                            Colors.lightBlueAccent,
-                          ],
-                              begin: Alignment.bottomLeft,
-                              end: Alignment.topRight
                           ),
-                        ),
-                        child: Column(
-                          children: [
-                            Padding(
-                                padding: EdgeInsets.all(10.0),
-                                child: Container(
-                                  height: 80,
-                                  width: 100,
-                                  decoration: BoxDecoration(
-                                    image: DecorationImage(image: AssetImage("assets/images/babycare.jpg"), fit: BoxFit.cover)
-                                  ),
-                                )
-                            ),
-                            Padding(padding: EdgeInsets.only(left: 5, right: 5, bottom: 5, top: 0),
-                              child: Text("Baby Care"),
-                            ),
-                          ],
+                          child: Column(
+                            children: [
+                              Padding(
+                                  padding: EdgeInsets.all(10.0),
+                                  child: Container(
+                                    height: 80,
+                                    width: 100,
+                                    decoration: BoxDecoration(
+                                      image: DecorationImage(image: AssetImage("assets/images/babycare.jpg"), fit: BoxFit.cover)
+                                    ),
+                                  )
+                              ),
+                              Padding(padding: EdgeInsets.only(left: 5, right: 5, bottom: 5, top: 0),
+                                child: Text("Baby Care"),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),

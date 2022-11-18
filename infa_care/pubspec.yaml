@@ -75,6 +75,9 @@ flutter:
     - assets/images/Feeding/2/
     - assets/images/Feeding/3/
     - assets/images/Feeding/4/
+    - assets/images/Babycare/1/
+    - assets/images/Babycare/2/
+    - assets/images/Babycare/3/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

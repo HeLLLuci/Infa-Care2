@@ -1,21 +1,24 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:infa_care/Feeding/HEM.dart';
-import 'package:infa_care/Feeding/JOF.dart';
-import 'package:infa_care/Feeding/STBM.dart';
-import 'package:infa_care/Feeding/TF.dart';
+import 'package:infa_care/Babycare/Oral.dart';
 
-class Feeding extends StatefulWidget {
-  const Feeding({Key? key}) : super(key: key);
+import '../Feeding/HEM.dart';
+import '../Feeding/JOF.dart';
+import '../Feeding/STBM.dart';
+import '../Feeding/TF.dart';
+
+class Baby extends StatefulWidget {
+  const Baby({Key? key}) : super(key: key);
 
   @override
-  State<Feeding> createState() => _FeedingState();
+  State<Baby> createState() => _BabyState();
 }
 
-class _FeedingState extends State<Feeding> {
+class _BabyState extends State<Baby> {
   @override
   Widget build(BuildContext context) {
     return Container(
+
       decoration: BoxDecoration(
           color: Colors.white
       ),
@@ -25,7 +28,7 @@ class _FeedingState extends State<Feeding> {
           scrolledUnderElevation: 10,
           centerTitle: true,
           elevation: 0,
-          title: Text("Feeding", style: TextStyle(
+          title: Text("Baby Care", style: TextStyle(
           ),
           ),
         ),
@@ -45,7 +48,7 @@ class _FeedingState extends State<Feeding> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => HEM(),));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Oral(),));
                   },
                   child: Container(
                     height: 70,
@@ -68,11 +71,11 @@ class _FeedingState extends State<Feeding> {
                         SizedBox(
                           height: 20,
                         ),
-                        Text("Hand Expressing Your Milk", style: TextStyle(
+                        Text("Oral Care", style: TextStyle(
                           fontSize: 15,
                         ),
                         ),
-                        Text("Tips on Hand expressing", style: TextStyle(
+                        Text("Providing oral care (ISOC)", style: TextStyle(
                           fontSize: 10,
                         ),
                         )
@@ -108,11 +111,11 @@ class _FeedingState extends State<Feeding> {
                         SizedBox(
                           height: 20,
                         ),
-                        Text("Storage and transport of your breast milk", style: TextStyle(
+                        Text("Bathing", style: TextStyle(
                           fontSize: 15,
                         ),
                         ),
-                        Text("Bringing your breastmilk to the hospital", style: TextStyle(
+                        Text("How to bath a baby", style: TextStyle(
                           fontSize: 10,
                         ),
                         )
@@ -148,51 +151,11 @@ class _FeedingState extends State<Feeding> {
                         SizedBox(
                           height: 20,
                         ),
-                        Text("Journey To Oral Feeding", style: TextStyle(
+                        Text("Swaddling", style: TextStyle(
                           fontSize: 15,
                         ),
                         ),
-                        Text("Skin to skin contact, Oral care etc.", style: TextStyle(
-                          fontSize: 10,
-                        ),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                GestureDetector(
-                  onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>TF()));
-                  },
-                  child: Container(
-                    height: 70,
-                    width: 300,
-                    decoration: BoxDecoration(
-                        gradient: LinearGradient(colors: [
-                          Colors.blueAccent,
-                          Colors.lightBlueAccent,
-                        ],
-                            begin: Alignment.bottomLeft,
-                            end: Alignment.topRight
-                        ),
-                        borderRadius: BorderRadius.circular(15),
-                        border: Border.all(
-                          color: Colors.blue,
-                        )
-                    ),
-                    child: Column(
-                      children: [
-                        SizedBox(
-                          height: 20,
-                        ),
-                        Text("Tube Feeding", style: TextStyle(
-                          fontSize: 15,
-                        ),
-                        ),
-                        Text("Allows babies to receive milk when they are unable to feed orally.", style: TextStyle(
+                        Text("Swaddling my Baby", style: TextStyle(
                           fontSize: 10,
                         ),
                         )
