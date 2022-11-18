@@ -45,7 +45,7 @@ class _OralState extends State<Oral> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Babycare/1/")),
+                              Image(image: AssetImage("assets/images/Babycare/1/step1.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -100,16 +100,15 @@ class _OralState extends State<Oral> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Every gastric tube has number on it that indicate length."),
+                              Text("Before you start wash your hands.\n"
+                                  "\n"
+                                  "You will need:\n"
+                                  "1.Fresh breastmilk\n"
+                                  "2.Cotton swabs 4-5"),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step2.jpg")),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("When the nurses inserts the tube they record the number that the tube is instead to. checking"
-                                  "the number on the tube before every feed makes sure it has not moved.")
+                              Image(image: AssetImage("assets/images/Babycare/1/step2.jpg")),
                             ],
                           ),
                         ),
@@ -129,71 +128,11 @@ class _OralState extends State<Oral> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Before you start \n"
-                                  "Wash your hands",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                ),),
+                              Text("Moisten the swab stick with fresh breastmilk."),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step3.jpg")),
-                              SizedBox(
-                                height: 10,
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey.withOpacity(0.8),
-                            borderRadius: BorderRadius.all(Radius.circular(15)),
-                            border: Border.all(
-                                color: Colors.white.withOpacity(0.5)
-                            )
-                        ),
-                        child: Padding(
-                          padding: EdgeInsets.all(10),
-                          child: Column(
-                            children: [
-                              Text("Before giving a feed we may test the contents of the stomach to check the tube position."),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step4.jpg")),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("We aspirate some of this fluid via the tube to ensure that the tube is in the stomach.")
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey.withOpacity(0.8),
-                            borderRadius: BorderRadius.all(Radius.circular(15)),
-                            border: Border.all(
-                                color: Colors.white.withOpacity(0.5)
-                            )
-                        ),
-                        child: Padding(
-                          padding: EdgeInsets.all(10),
-                          child: Column(
-                            children: [
-                              Text("Checking pH of the aspirate from the tube.\n"
-                                  "Look for change in color of the test strip to show an acid reaction."),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step5.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/1/step3.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -216,18 +155,12 @@ class _OralState extends State<Oral> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Checking the number on the tube", style:
-                              TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),),
+                              Text("Place the swab stick against babies lips with firm but gentle pressure and "
+                                  "wait for baby to respond."),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step6.jpg")),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("Make sure this is the same as when the tube was inserted.")
+                              Image(image: AssetImage("assets/images/Babycare/1/step4.jpg")),
                             ],
                           ),
                         ),
@@ -247,14 +180,15 @@ class _OralState extends State<Oral> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Aspirate the tube", style:
-                              TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),),
+                              Text("Baby will respond by moving their lips."),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step7.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/1/step5.jpg")),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Text("This means its Ok to continue and move the tip of the swab into babies mouth.")
                             ],
                           ),
                         ),
@@ -274,11 +208,15 @@ class _OralState extends State<Oral> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Check the aspirate with the nurse on the pH strips."),
+                              Text("Gently coat thier mouth with the breastmilk."),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step8.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/1/step6.jpg")),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Text("Fresh breastmilk has live cells that will help clean and protect baby's mouth and it is sweet to taste.")
                             ],
                           ),
                         ),
@@ -298,187 +236,11 @@ class _OralState extends State<Oral> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Remove the plunger from the syring and connect the syringe to the tube."),
+                              Text("Your baby may even suck on the swab stick. Ensure you are gentle when slowly removing it from mouth."),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step9.jpg")),
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey.withOpacity(0.8),
-                            borderRadius: BorderRadius.all(Radius.circular(15)),
-                            border: Border.all(
-                                color: Colors.white.withOpacity(0.5)
-                            )
-                        ),
-                        child: Padding(
-                          padding: EdgeInsets.all(10),
-                          child: Column(
-                            children: [
-                              Text("Pour milk that has been prepared into syringe."),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step10.jpg")),
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey.withOpacity(0.8),
-                            borderRadius: BorderRadius.all(Radius.circular(15)),
-                            border: Border.all(
-                                color: Colors.white.withOpacity(0.5)
-                            )
-                        ),
-                        child: Padding(
-                          padding: EdgeInsets.all(10),
-                          child: Column(
-                            children: [
-                              Text("Give the feed slowly holding tube no more than about 20 cm from your baby's stomach."),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step11.jpg")),
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey.withOpacity(0.8),
-                            borderRadius: BorderRadius.all(Radius.circular(15)),
-                            border: Border.all(
-                                color: Colors.white.withOpacity(0.5)
-                            )
-                        ),
-                        child: Padding(
-                          padding: EdgeInsets.all(10),
-                          child: Column(
-                            children: [
-                              Text("Watch your baby's face during the feed."),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step12.jpg")),
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey.withOpacity(0.8),
-                            borderRadius: BorderRadius.all(Radius.circular(15)),
-                            border: Border.all(
-                                color: Colors.white.withOpacity(0.5)
-                            )
-                        ),
-                        child: Padding(
-                          padding: EdgeInsets.all(10),
-                          child: Column(
-                            children: [
-                              Text("Try dipping your baby's dummy in milk whilst "
-                                  "they have a tube feed so that they can enjoy "
-                                  "the taste of the milk."),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step13.jpg")),
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey.withOpacity(0.8),
-                            borderRadius: BorderRadius.all(Radius.circular(15)),
-                            border: Border.all(
-                                color: Colors.white.withOpacity(0.5)
-                            )
-                        ),
-                        child: Padding(
-                          padding: EdgeInsets.all(10),
-                          child: Column(
-                            children: [
-                              Text("When to stop the feed", style:
-                              TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),
-                              ),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("If your baby vomits\n"
-                                  "If the monitor alarms.\n"
-                                  "If you are worried"),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("How to stop the feed?", style:
-                              TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),
-                              ),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("Stop the feed by kinking the tube"),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step14.jpg")),
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey.withOpacity(0.8),
-                            borderRadius: BorderRadius.all(Radius.circular(15)),
-                            border: Border.all(
-                                color: Colors.white.withOpacity(0.5)
-                            )
-                        ),
-                        child: Padding(
-                          padding: EdgeInsets.all(10),
-                          child: Column(
-                            children: [
-                              Text("Remember:", style:
-                              TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),
-                              ),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("Remember Your nurse is always there to assist you don't be afraid to ask for help at any time."),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step15.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/1/step7.jpg")),
                             ],
                           ),
                         ),
