@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class BR extends StatefulWidget {
   const BR({Key? key}) : super(key: key);
@@ -11,17 +10,6 @@ class BR extends StatefulWidget {
 }
 
 class _BRState extends State<BR> {
-  late Future<void> _launched;
-  String phoneNumber = '';
-  String _lauchUrl = 'www.indiancitizenshiponline.nic.in/IC_4_1_tab.aspx';
-  
-  Future<void> _launchInBrowser(String url) async{
-    if(await canLaunch(url)){
-      await launch(url, forceSafariVC: false, forceWebView: false,
-      headers: <String, String>{'header_key': 'header_value'},);
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -76,7 +64,6 @@ class _BRState extends State<BR> {
                           ),
                           GestureDetector(
                             onTap: (){
-                              _launchInBrowser(_lauchUrl);
                             },
                             child: Container(
                               decoration: BoxDecoration(
