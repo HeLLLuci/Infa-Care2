@@ -92,7 +92,7 @@ class _TemperatureState extends State<Temperature> {
                           ),
                           Text("The axillary (UNder arm) temperature can be taken by"),
                           Text("using an elctronic thermometer like one of these"),
-                          Image(image: AssetImage("assets/images/step1.jpg")),
+                          Image(image: AssetImage("assets/images/Equipment/Temperature/step 5.jpg")),
                           SizedBox(
                             height: 8,
                           ),
