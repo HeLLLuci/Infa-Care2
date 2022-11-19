@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:infa_care/Babycare/Oral.dart';
+import 'package:infa_care/Babycare/Swaddle.dart';
 import 'package:infa_care/Babycare/bath.dart';
 
 import '../Feeding/HEM.dart';
@@ -130,7 +131,7 @@ class _BabyState extends State<Baby> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>JOF()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>Swaddle()));
                   },
                   child: Container(
                     height: 70,

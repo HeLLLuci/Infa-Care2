@@ -22,7 +22,7 @@ class _SwaddleState extends State<Swaddle> {
         appBar: AppBar(
           scrolledUnderElevation: 10,
           elevation: 0,
-          title: Text("ISOC Oral Care"),
+          title: Text("Swaddling your Baby"),
           centerTitle: true,
           leading: IconButton(onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (context)=>HomeScreen()));
@@ -45,12 +45,86 @@ class _SwaddleState extends State<Swaddle> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Babycare/1/step1.jpg")),
+                              Text("How  to wrap your baby?\n\n"
+                                  "Wrapping provides a secure and comfort environment for your baby to rest.\n"
+                                  "You will find that your baby will settle much more readily when wrapped, "
+                                  "as this is the position which is the most familier to when baby wants inside the womb."
+                              ),
                               SizedBox(
                                 height: 10,
                               ),
-                              Text("Babies mouths are incredibally sensitive. As they grow, babies use their mouths to explore thier "
-                                  "environment."
+                              Image(image: AssetImage("assets/images/Babycare/3/step1.jpg")),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                            color: Colors.grey.withOpacity(0.8),
+                            borderRadius: BorderRadius.all(Radius.circular(15)),
+                            border: Border.all(
+                                color: Colors.white.withOpacity(0.5)
+                            )
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(10),
+                          child: Column(
+                            children: [
+                              Text("Here's how to do it."),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                            color: Colors.grey.withOpacity(0.8),
+                            borderRadius: BorderRadius.all(Radius.circular(15)),
+                            border: Border.all(
+                                color: Colors.white.withOpacity(0.5)
+                            )
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(10),
+                          child: Column(
+                            children: [
+                              Image(image: AssetImage("assets/images/Babycare/3/step2.jpg")),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Text("Open Blanket/sheet out flat."),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                            color: Colors.grey.withOpacity(0.8),
+                            borderRadius: BorderRadius.all(Radius.circular(15)),
+                            border: Border.all(
+                                color: Colors.white.withOpacity(0.5)
+                            )
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(10),
+                          child: Column(
+                            children: [
+                              Text("Fold down the top of the wrap and place baby on the wrap.\n"
+                                  "Hold the baby's hands up towards their face and bring wrap across baby."),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Image(image: AssetImage("assets/images/Babycare/3/step3.jpg")),
+                              SizedBox(
+                                height: 10,
                               ),
                             ],
                           ),
@@ -71,16 +145,11 @@ class _SwaddleState extends State<Swaddle> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Particularly when baby is not feeding orally"
-                                  ", procedures around your baby's mouth can be "
-                                  "stressful. It can also lead to your baby"
-                                  " becoming sensitive around their mouth which "
-                                  "may have a negative impact on feeding.You can "
-                                  "help your baby cope with touch to the mouth"
-                                  " through positive experiences of taste and "
-                                  "touch. Your fresh expressed breast milk is the "
-                                  "best thing to use. It's sweet and contains lots "
-                                  "of properties to protect your baby."),
+                              Text("Truck wrap under baby."),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Image(image: AssetImage("assets/images/Babycare/3/step4.jpg")),
                             ],
                           ),
                         ),
@@ -100,15 +169,11 @@ class _SwaddleState extends State<Swaddle> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Before you start wash your hands.\n"
-                                  "\n"
-                                  "You will need:\n"
-                                  "1.Fresh breastmilk\n"
-                                  "2.Cotton swabs 4-5"),
+                              Text("Bring wrap across baby and tuck other side."),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Babycare/1/step2.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/3/step5.jpg")),
                             ],
                           ),
                         ),
@@ -128,14 +193,12 @@ class _SwaddleState extends State<Swaddle> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Moisten the swab stick with fresh breastmilk."),
+                              Text("Baby's arm are wrapped but the hands are still clode to their face.\n"
+                                  "Hands near the face provides comfort to baby."),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Babycare/1/step3.jpg")),
-                              SizedBox(
-                                height: 10,
-                              ),
+                              Image(image: AssetImage("assets/images/Babycare/3/step6.jpg")),
                             ],
                           ),
                         ),
@@ -155,12 +218,11 @@ class _SwaddleState extends State<Swaddle> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Place the swab stick against babies lips with firm but gentle pressure and "
-                                  "wait for baby to respond."),
+                              Text("Tuck baby's legs up, spread out bottom of the sheet, pull up the and tuck around the body."),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Babycare/1/step4.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/3/step7.jpg")),
                             ],
                           ),
                         ),
@@ -180,15 +242,11 @@ class _SwaddleState extends State<Swaddle> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Baby will respond by moving their lips."),
+                              Text("Wrapping this way keeps baby calm and comfortable."),
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Babycare/1/step5.jpg")),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("This means its Ok to continue and move the tip of the swab into babies mouth.")
+                              Image(image: AssetImage("assets/images/Babycare/3/step8.jpg")),
                             ],
                           ),
                         ),
@@ -208,39 +266,11 @@ class _SwaddleState extends State<Swaddle> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Gently coat thier mouth with the breastmilk."),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Image(image: AssetImage("assets/images/Babycare/1/step6.jpg")),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("Fresh breastmilk has live cells that will help clean and protect baby's mouth and it is sweet to taste.")
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.grey.withOpacity(0.8),
-                            borderRadius: BorderRadius.all(Radius.circular(15)),
-                            border: Border.all(
-                                color: Colors.white.withOpacity(0.5)
-                            )
-                        ),
-                        child: Padding(
-                          padding: EdgeInsets.all(10),
-                          child: Column(
-                            children: [
-                              Text("Your baby may even suck on the swab stick. Ensure you are gentle when slowly removing it from mouth."),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Image(image: AssetImage("assets/images/Babycare/1/step7.jpg")),
+                              Text("We advise that you keep wrapping your baby for some timeafter they are discharge from hospital. "
+                                  "Ideally, you should keep wrapping your baby until they can roll themeselves, "
+                                  "which is around 4-6 months corrected age.\n"
+                                  "Some parents may be concerned that wrapping their baby may make them too hot during the summers. "
+                                  "Muslin, cheesecloth, or thin cot sheets are more practical for the summer months."),
                             ],
                           ),
                         ),
