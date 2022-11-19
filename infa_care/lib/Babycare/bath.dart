@@ -53,7 +53,7 @@ class _BathState extends State<Bath> {
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step1.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step1.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -194,7 +194,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step2.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/stepx.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -218,7 +218,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step3.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step2.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -246,7 +246,7 @@ class _BathState extends State<Bath> {
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step4.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step3.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -270,7 +270,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step5.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step4.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -294,7 +294,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step6.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step5.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -319,7 +319,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step7.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step6.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -343,7 +343,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step8.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step7.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -367,7 +367,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step9.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step8.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -391,7 +391,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step10.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step9.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -415,7 +415,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step11.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step10.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -441,7 +441,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step12.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step11.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -465,7 +465,7 @@ class _BathState extends State<Bath> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Image(image: AssetImage("assets/images/Feeding/4/step13.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step12.jpg")),
                               SizedBox(
                                 height: 10,
                               ),
@@ -494,7 +494,7 @@ class _BathState extends State<Bath> {
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step14.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step13.jpg")),
                             ],
                           ),
                         ),
@@ -520,7 +520,7 @@ class _BathState extends State<Bath> {
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step15.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step14.jpg")),
                             ],
                           ),
                         ),
@@ -553,7 +553,7 @@ class _BathState extends State<Bath> {
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step15.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step15.jpg")),
                             ],
                           ),
                         ),
@@ -579,7 +579,7 @@ class _BathState extends State<Bath> {
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step15.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step16.jpg")),
                             ],
                           ),
                         ),
@@ -604,7 +604,7 @@ class _BathState extends State<Bath> {
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step15.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step17.jpg")),
                             ],
                           ),
                         ),
@@ -630,7 +630,7 @@ class _BathState extends State<Bath> {
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step15.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step18.jpg")),
                             ],
                           ),
                         ),
@@ -655,7 +655,7 @@ class _BathState extends State<Bath> {
                               SizedBox(
                                 height: 10,
                               ),
-                              Image(image: AssetImage("assets/images/Feeding/4/step15.jpg")),
+                              Image(image: AssetImage("assets/images/Babycare/2/step19.jpg")),
                             ],
                           ),
                         ),
