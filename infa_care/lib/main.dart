@@ -4,7 +4,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:infa_care/HomeScreen.dart';
-import 'package:video_player/video_player.dart';
 
 import 'login.dart';
 
