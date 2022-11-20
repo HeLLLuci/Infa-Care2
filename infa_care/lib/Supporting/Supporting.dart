@@ -1,11 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:infa_care/Supporting/Enviroment.dart';
 import 'package:infa_care/Supporting/Sleep.dart';
 
 import '../Feeding/HEM.dart';
 import '../Feeding/JOF.dart';
 import '../Feeding/STBM.dart';
 import '../Feeding/TF.dart';
+import 'Sign.dart';
 
 class Support extends StatefulWidget {
   const Support({Key? key}) : super(key: key);
@@ -87,7 +89,7 @@ class _SupportState extends State<Support> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => STBM(),));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Enviro(),));
                   },
                   child: Container(
                     height: 70,
@@ -127,7 +129,7 @@ class _SupportState extends State<Support> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>JOF()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>Sign()));
                   },
                   child: Container(
                     height: 70,
