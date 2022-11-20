@@ -294,10 +294,6 @@ class _SignState extends State<Sign> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Pour milk that has been prepared into syringe."),
-                              SizedBox(
-                                height: 10,
-                              ),
                               Image(image: AssetImage("assets/images/Support/3/step10.jpg")),
                             ],
                           ),
@@ -318,10 +314,6 @@ class _SignState extends State<Sign> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Give the feed slowly holding tube no more than about 20 cm from your baby's stomach."),
-                              SizedBox(
-                                height: 10,
-                              ),
                               Image(image: AssetImage("assets/images/Support/3/step11.jpg")),
                             ],
                           ),
@@ -342,10 +334,6 @@ class _SignState extends State<Sign> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Watch your baby's face during the feed."),
-                              SizedBox(
-                                height: 10,
-                              ),
                               Image(image: AssetImage("assets/images/Support/3/step12.jpg")),
                             ],
                           ),
@@ -366,12 +354,6 @@ class _SignState extends State<Sign> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Try dipping your baby's dummy in milk whilst "
-                                  "they have a tube feed so that they can enjoy "
-                                  "the taste of the milk."),
-                              SizedBox(
-                                height: 10,
-                              ),
                               Image(image: AssetImage("assets/images/Support/3/step13.jpg")),
                             ],
                           ),
@@ -392,32 +374,6 @@ class _SignState extends State<Sign> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("When to stop the feed", style:
-                              TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),
-                              ),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("If your baby vomits\n"
-                                  "If the monitor alarms.\n"
-                                  "If you are worried"),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("How to stop the feed?", style:
-                              TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),
-                              ),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("Stop the feed by kinking the tube"),
-                              SizedBox(
-                                height: 10,
-                              ),
                               Image(image: AssetImage("assets/images/Support/3/step14.jpg")),
                             ],
                           ),
@@ -438,22 +394,62 @@ class _SignState extends State<Sign> {
                           padding: EdgeInsets.all(10),
                           child: Column(
                             children: [
-                              Text("Remember:", style:
-                              TextStyle(
-                                fontWeight: FontWeight.bold,
-                              ),
-                              ),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text("Remember Your nurse is always there to assist you don't be afraid to ask for help at any time."),
-                              SizedBox(
-                                height: 10,
-                              ),
                               Image(image: AssetImage("assets/images/Support/3/step15.jpg")),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Text("These 'cues' tells you that your baby needs you to stop and provide comfort.\n\n"
+                                  "Your baby may be feeling discomfort, pain and need you your help to cope with everything in their environment."),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Image(image: AssetImage("assets/images/Support/3/step16.jpg"))
                             ],
                           ),
                         ),
+                      ),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                            color: Colors.grey.withOpacity(0.8),
+                            borderRadius: BorderRadius.all(Radius.circular(15)),
+                            border: Border.all(
+                                color: Colors.white.withOpacity(0.5)
+                            )
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(10),
+                          child: Column(
+                            children: [
+                              Image(image: AssetImage("assets/images/Support/3/step17.jpg")),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                            color: Colors.grey.withOpacity(0.8),
+                            borderRadius: BorderRadius.all(Radius.circular(15)),
+                            border: Border.all(
+                                color: Colors.white.withOpacity(0.5)
+                            )
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(10),
+                          child: Column(
+                            children: [
+                              Image(image: AssetImage("assets/images/Support/3/step18.jpg")),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 15,
                       ),
                     ],
                   ),
