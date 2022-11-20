@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:infa_care/Babycare/BabyCare.dart';
 import 'package:infa_care/BirthRegister/Birth.dart';
 import 'package:infa_care/Equipment.dart';
+import 'package:infa_care/Supporting/Supporting.dart';
 import 'package:infa_care/login.dart';
 import 'package:infa_care/util/Util.dart';
 
@@ -267,48 +268,53 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           Padding(
                             padding: const EdgeInsets.all(30),
-                            child: Container(
-                              height: 120,
-                              width: 120,
-                              decoration: BoxDecoration(
-                                boxShadow: [
-                                  BoxShadow(
-                                      color: Colors.grey,
-                                      offset: Offset(3, 2),
-                                      blurRadius: 20,
-                                      spreadRadius: 1
-                                  )
-                                ],
-                                border: Border.all(
-                                    color: Colors.blueAccent
-                                ),
-                                borderRadius: BorderRadius.circular(10),
-                                gradient: LinearGradient(colors: [
-                                  Colors.blueAccent,
-                                  Colors.lightBlueAccent,
-                                ],
-                                    begin: Alignment.bottomLeft,
-                                    end: Alignment.topRight
-                                ),
-                              ),
-                              child: Column(
-                                children: [
-                                  Padding(
-                                      padding: EdgeInsets.all(12.0),
-                                      child: Container(
-                                        height: 70,
-                                        width: 100,
-                                        decoration: BoxDecoration(
-                                            image: DecorationImage(image: AssetImage("assets/images/finger.jpg"),fit: BoxFit.cover)
-                                        ),
-                                      )
+                            child: GestureDetector(
+                              onTap: (){
+                                Navigator.push(context, MaterialPageRoute(builder: (context)=>Support()));
+                              },
+                              child: Container(
+                                height: 120,
+                                width: 120,
+                                decoration: BoxDecoration(
+                                  boxShadow: [
+                                    BoxShadow(
+                                        color: Colors.grey,
+                                        offset: Offset(3, 2),
+                                        blurRadius: 20,
+                                        spreadRadius: 1
+                                    )
+                                  ],
+                                  border: Border.all(
+                                      color: Colors.blueAccent
                                   ),
-                                  Padding(padding: EdgeInsets.only(left: 5, right: 5, bottom: 0, top: 0),
-                                    child: Text("Supporting Development", style: TextStyle(
-                                        fontSize: 12
-                                    ),),
+                                  borderRadius: BorderRadius.circular(10),
+                                  gradient: LinearGradient(colors: [
+                                    Colors.blueAccent,
+                                    Colors.lightBlueAccent,
+                                  ],
+                                      begin: Alignment.bottomLeft,
+                                      end: Alignment.topRight
                                   ),
-                                ],
+                                ),
+                                child: Column(
+                                  children: [
+                                    Padding(
+                                        padding: EdgeInsets.all(12.0),
+                                        child: Container(
+                                          height: 70,
+                                          width: 100,
+                                          decoration: BoxDecoration(
+                                              image: DecorationImage(image: AssetImage("assets/images/finger.jpg"),fit: BoxFit.cover)
+                                          ),
+                                        )
+                                    ),
+                                    Padding(padding: EdgeInsets.only(left: 5, right: 5, bottom: 0, top: 0),
+                                      child: Text("Supporting Development", style: TextStyle(
+                                          fontSize: 12
+                                      ),),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                           ),
